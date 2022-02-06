@@ -1,0 +1,14 @@
+{% extends "flatpages/default.html" %}
+
+{% block css %}
+{% load static %}
+<link href="{% static '/css/styles2.css' %}" rel="stylesheet" />
+{% endblock css %}
+
+
+{% block content %}
+<i>
+<h1>Page 1</h1>
+{{ posts }}
+</i>
+{% endblock content%}
